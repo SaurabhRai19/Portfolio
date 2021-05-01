@@ -49,7 +49,7 @@ const Sidebar = () => {
             </figure>
             <div className="sidebar__contact">
                 <div className="sidebar__item sidebar__github">
-                    <a href="!#"><img src={github} alt="github" className="sidebar__icon mr-3" />github</a>
+                    <a href="!#"><img src={github} alt="github" className="sidebar__icon mr-3" />Github</a>
                 </div>
                 <div className="sidebar__location">
                     <img src={pin} alt="location" className="sidebar__icon mr-3" />
