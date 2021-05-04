@@ -17,7 +17,7 @@ const skills = [
     {
         icon: repair,
         title: "Backend  Development",
-        about: "Handling database, server, api using with SQL and NoSQL DB's.",
+        about: "Handling database, server using Nodejs, api using with SQL and NoSQL DB's.",
     },
     {
         icon: api,
@@ -36,20 +36,39 @@ const skills = [
     },
     {
         icon: computer,
-        title: "Whatever",
-        about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!"
+        title: "Machine Learning",
+        about: "Build Machine Learning models using Pandas, Numpy, Scikitlearn libraries."
     },
 ]
 
 
-const About = () => {
-    
+const Aboutpage = () => {
+    const about_variants = {
+        hidden: {
+            opacity: 0
+        },
+        visible: {
+            opacity: 1,
+            transition: {
+                dealy: 0.2, duration: 0.6,
+            }
+        },
+        exit: {
+            opacity: 0,
+            transition: {
+                ease: 'easeInOut'
+            }
+        }
+    }
     return (
         <motion.div className="about"
-
+        variants={about_variants}
+        initial="hidden"
+        animate="visible"
+        exit="exit"
         >
             <h6 className="about__intro">
-                I describe myself as someone who's persistant, a quick learner and loves problem solving by using simple and scalable solutions.
+            I’m resilient, adaptive and a team player. Can join groups and push them towards team goals. Ability to master diverse web technologies.
             </h6>
             <div className="container about__container">
                 <h6 className="about__heading">What I offer</h6>
@@ -66,4 +85,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default Aboutpage;

@@ -6,7 +6,7 @@ import About from './components/about/About';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
 import { AnimatePresence } from 'framer-motion'
-
+import Aboutpage from './components/Aboutpage';
 function App() {
 
   const location = useLocation();
@@ -27,9 +27,9 @@ function App() {
             <AnimatePresence exitBeforeEnter>
               <Switch location={location} key={location.key}>
                 <Route exact path="/">
-                  <About />
+                  <Aboutpage />
                 </Route>
-                <Route path="/resume">
+                <Route path="/resume" component={Resume}>
                   <Resume />
                 </Route>
                 <Route path="/projects" component={Projects} />

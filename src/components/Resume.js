@@ -43,9 +43,9 @@ const Resume = () => {
                             Computer Science Enginnering
                         </h5>
                         <p className="resume-card__name">
-                            Academy of Technology(2017-2021)
+                            Parul Institute of Engineering and Technology(2017-2021)
                         </p>
-                        <p className="resume-card__details">I am currently persuing B.tech in Computer Science Engineering from Academy of Technology</p>
+                        <p className="resume-card__details">I am currently persuing B.tech in Computer Science Engineering from Parul University</p>
                     </div>
                 </div>
                 <div className="col-lg-6 resume-card" >
@@ -57,9 +57,18 @@ const Resume = () => {
                             Intern
                         </h5>
                         <p className="resume-card__name">
-                            TCS (2020)
+                            ineuron.ai (2020)
                         </p>
-                        <p className="resume-card__details">I work as a intern in TCS and also completed some projects on testing</p>
+                        <p className="resume-card__details">I work as a intern in ineuron.ai and also completed some projects on model deployement.</p>
+                    </div>
+                    <div className="resume-card__body">
+                        <h5 className="resume-card__title">
+                            Intern
+                        </h5>
+                        <p className="resume-card__name">
+                            335th Industries Private Ltd. (2021)
+                        </p>
+                        <p className="resume-card__details">I work as a intern in 335th and also helped them in developing their application.</p>
                     </div>
                 </div>
             </div>
@@ -67,7 +76,7 @@ const Resume = () => {
             <div className="row">
                 <div className="col-lg-6 resume-languages">
                     <h5 className="reume-language__heading">
-                        Language and Framework
+                        Language/Framework/Libraries
                     </h5>
                     <div className="resume-language__body mt-3">
                         {

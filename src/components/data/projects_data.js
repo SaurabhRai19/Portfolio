@@ -5,77 +5,33 @@ import portfolio from '../../assets/projects_images/portfolio.JPG'
 import new_year from '../../assets/projects_images/new_year.jpg'
 import color_classification from '../../assets/projects_images/color_classification.jpg'
 import blinking from '../../assets/projects_images/blinking.JPG'
-import COVID from '../../assets/projects_images/COVID.jpg'
-import Dev_talks from '../../assets/projects_images/Dev_talks.jpg'
+import COVID from '../../assets/projects_images/COVID.png'
+import Video_Chat from '../../assets/projects_images/Video_Chat.png';
+import Pizza_Store_Locator from '../../assets/projects_images/Pizza_Store_Locator.png';
 
 const data_projects = [
     {
-        name: 'COVID 19 tracker',
+        name: 'COVID19 Cases App',
         image: COVID,
-        deployed_url: 'https://covid-19-tracker-by-sumit.web.app/',
-        github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
+        deployed_url: 'https://thirsty-bose-c66415.netlify.app/',
+        github_url: 'https://github.com/SaurabhRai19/Covid-App',
         category: ['react.js']
     },
 
     {
-        name: 'Dev Talks',
-        image: Dev_talks,
-        deployed_url: 'https://dev-talks.herokuapp.com/',
-        github_url: 'https://github.com/Dey-Sumit/Dev-talks',
-        category: ['node.js', 'mongoDB', 'react.js']
+        name: 'Video_Chat',
+        image: Video_Chat,
+        deployed_url: 'https://video-chat-app-sr-add583.netlify.app/',
+        github_url: 'https://github.com/SaurabhRai19/Video-Chat-App',
+        category: ['node.js', 'socket.io', 'react.js']
     },
 
     {
-        name: 'Realtime Chat App',
-        image: chatapp,
-        deployed_url: 'https://sumit-chat.netlify.app/',
-        github_url: 'https://github.com/Dey-Sumit/chat-app-socket.io-react-node',
-        category: ['node', 'socket.io', 'react']
-    },
-
-    {
-        name: 'Tweeter Clone',
-        image: tweetme,
-        deployed_url: 'http://sumaxtweetme.pythonanywhere.com/',
-        github_url: 'https://github.com/Dey-Sumit/tweetme',
-        category: ['django', 'react']
-    },
-
-    {
-        name: 'Shop Website',
-        image: hardware_store,
-        deployed_url: '!#',
-        category: ['html_css', 'vanilla']
-    },
-
-    {
-        name: 'Dev Portfolio',
-        image: portfolio,
-        deployed_url: 'http://suprateem.herokuapp.com/',
-        category: ['vanilla']
-    },
-
-    {
-        name: 'Bengali New Year',
-        image: new_year,
-        deployed_url: 'https://dey-sumit.github.io/NewYear/',
-        category: ['vanilla']
-    },
-
-    {
-        name: 'Color Classification using tf.js',
-        image: color_classification,
-        deployed_url: '!#',
-        github_url: 'https://github.com/Dey-Sumit/color-classification',
-        category: ['node', 'machine_learning']
-    },
-
-    {
-        name: 'Blinking bubbles',
-        image: blinking,
-        deployed_url: 'https://dey-sumit.github.io/Blinking_Bubbles/',
-        github_url: 'https://github.com/Dey-Sumit/Blinking_Bubbles',
-        category: ['processing']
+        name: 'Pizza Stores Locator App',
+        image: Pizza_Store_Locator,
+        deployed_url: 'https://pizza-store-locator-leaflet-sr-65e0e5.netlify.app/',
+        github_url: 'https://github.com/SaurabhRai19/PizzaStoreLocatorwithLeaflet',
+        category: ['leaflet', 'javascript','vanilla']
     }
 ]
 

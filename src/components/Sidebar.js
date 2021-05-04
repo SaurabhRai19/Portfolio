@@ -6,12 +6,13 @@ import github from '../assets/icons/github.svg'
 import pin from '../assets/icons/pin.svg'
 import tie from '../assets/icons/tie.svg'
 import mightycoder from '../assets/mightycoder.svg'
+import myphoto from '../assets/myphoto.jpeg'
 import resume from '../assets/resume.pdf'
 import { motion } from 'framer-motion'
 
 const Sidebar = () => {
     const handleEmailMe = () => {
-        window.open("mailto:codesumax@gmail.com")
+        window.open("mailto:saurabhrai473@gmail.com")
     }
     const sidebar_variant = {
         hidden: {
@@ -35,7 +36,7 @@ const Sidebar = () => {
             animate="visible"
 
         >
-            <img src={mightycoder} alt="avatar" className="sidebar__avatar" />
+            <img src={myphoto} alt="avatar" className="sidebar__avatar" />
             <div className="sidebar__name">Saurabh <span>Rai</span> </div>
             <div className="sidebar__item sidebar__title">Web Developer</div>
             <a href={resume} download="resume.pdf">
@@ -49,7 +50,7 @@ const Sidebar = () => {
             </figure>
             <div className="sidebar__contact">
                 <div className="sidebar__item sidebar__github">
-                    <a href="!#"><img src={github} alt="github" className="sidebar__icon mr-3" />Github</a>
+                    <a href="https://github.com/SaurabhRai19" target="_blank"><img src={github} alt="github" className="sidebar__icon mr-3" />Github</a>
                 </div>
                 <div className="sidebar__location">
                     <img src={pin} alt="location" className="sidebar__icon mr-3" />

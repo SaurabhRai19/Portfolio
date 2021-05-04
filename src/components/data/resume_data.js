@@ -9,7 +9,7 @@ const languages = [
     },
     {
         icon: react,
-        name: 'Java',
+        name: 'Javascipt',
         level: '60'
     },
     {
@@ -24,12 +24,37 @@ const languages = [
     },
     {
         icon: react,
-        name: 'Django',
+        name: 'Bootstrap',
         level: '80'
     },
     {
         icon: react,
-        name: 'Bootstrap',
+        name: 'Flask',
+        level: '80'
+    },
+    {
+        icon: react,
+        name: 'Redux',
+        level: '80'
+    },
+    {
+        icon: react,
+        name: 'WebRTC',
+        level: '45'
+    },
+    {
+        icon: react,
+        name: 'Socket.io',
+        level: '80'
+    },
+    {
+        icon: react,
+        name: 'Simple-peer',
+        level: '80'
+    },
+    {
+        icon: react,
+        name: 'Leaflet',
         level: '80'
     }
 ]
@@ -42,19 +67,39 @@ const tools = [
     },
     {
         icon: react,
-        name: 'Photoshop',
+        name: 'GIMP',
         level: '45'
     },
     {
         icon: react,
-        name: 'Illustrator',
+        name: 'Postman',
         level: '60'
     },
     {
         icon: react,
-        name: 'Framer',
+        name: 'Jupyter Notebook',
         level: '45'
     },
+    {
+        icon: react,
+        name: 'Git',
+        level: '45'
+    },
+    {
+        icon: react,
+        name: 'AWS',
+        level: '60'
+    },
+    {
+        icon: react,
+        name: 'Heroku',
+        level: '60'
+    },
+    {
+        icon: react,
+        name: 'Netlify',
+        level: '70'
+    }
 
 ]
 
