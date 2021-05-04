@@ -68,7 +68,7 @@ const Aboutpage = () => {
         exit="exit"
         >
             <h6 className="about__intro">
-            I’m resilient, adaptive and a team player. Can join groups and push them towards team goals. Ability to master diverse web technologies.
+            I’m resilient and adaptive. Capable of working with a team and motivating co-workers. Ability to master diverse web technologies.
             </h6>
             <div className="container about__container">
                 <h6 className="about__heading">What I offer</h6>

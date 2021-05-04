@@ -57,18 +57,18 @@ const Resume = () => {
                             Intern
                         </h5>
                         <p className="resume-card__name">
-                            ineuron.ai (2020)
+                            335th Industries Private Ltd. (2021)
                         </p>
-                        <p className="resume-card__details">I work as a intern in ineuron.ai and also completed some projects on model deployement.</p>
+                        <p className="resume-card__details">Worked as a Full Stack developer. Briefed and ensured coordination between the newcomers.</p>
                     </div>
                     <div className="resume-card__body">
                         <h5 className="resume-card__title">
                             Intern
                         </h5>
                         <p className="resume-card__name">
-                            335th Industries Private Ltd. (2021)
+                            ineuron.ai (2020)
                         </p>
-                        <p className="resume-card__details">I work as a intern in 335th and also helped them in developing their application.</p>
+                        <p className="resume-card__details">I was deployed in the content writing team for helping them create Question banks.</p>
                     </div>
                 </div>
             </div>

@@ -3,24 +3,24 @@ import python from '../../assets/icons/python.svg'
 
 const languages = [
     {
-        icon: python,
+        icon: react,
         name: 'Python',
-        level: '45'
+        level: '75'
     },
     {
         icon: react,
         name: 'Javascipt',
-        level: '60'
+        level: '85'
     },
     {
         icon: react,
         name: 'HTML',
-        level: '80'
+        level: '90'
     },
     {
         icon: react,
         name: 'react',
-        level: '60'
+        level: '85'
     },
     {
         icon: react,
@@ -35,27 +35,27 @@ const languages = [
     {
         icon: react,
         name: 'Redux',
-        level: '80'
+        level: '65'
     },
     {
         icon: react,
         name: 'WebRTC',
-        level: '45'
+        level: '75'
     },
     {
         icon: react,
         name: 'Socket.io',
-        level: '80'
+        level: '75'
     },
     {
         icon: react,
         name: 'Simple-peer',
-        level: '80'
+        level: '75'
     },
     {
         icon: react,
         name: 'Leaflet',
-        level: '80'
+        level: '75'
     }
 ]
 
@@ -67,8 +67,8 @@ const tools = [
     },
     {
         icon: react,
-        name: 'GIMP',
-        level: '45'
+        name: 'Git',
+        level: '80'
     },
     {
         icon: react,
@@ -80,26 +80,34 @@ const tools = [
         name: 'Jupyter Notebook',
         level: '45'
     },
-    {
-        icon: react,
-        name: 'Git',
-        level: '45'
-    },
+    
     {
         icon: react,
         name: 'AWS',
-        level: '60'
+        level: '70'
     },
     {
         icon: react,
         name: 'Heroku',
-        level: '60'
+        level: '65'
     },
     {
         icon: react,
         name: 'Netlify',
-        level: '70'
+        level: '65'
+    },
+    {
+        icon: react,
+        name: 'VS Code',
+        level: '80'
+    },
+    {
+        icon: react,
+        name: 'GIMP',
+        level: '60'
     }
+    
+    
 
 ]
 

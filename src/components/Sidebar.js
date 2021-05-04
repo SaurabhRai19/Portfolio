@@ -5,6 +5,7 @@ import instagram from '../assets/icons/instagram.svg'
 import github from '../assets/icons/github.svg'
 import pin from '../assets/icons/pin.svg'
 import tie from '../assets/icons/tie.svg'
+import linkedin from '../assets/icons/linkedin.svg'
 import mightycoder from '../assets/mightycoder.svg'
 import myphoto from '../assets/myphoto.jpeg'
 import resume from '../assets/resume.pdf'
@@ -46,7 +47,7 @@ const Sidebar = () => {
             </a>
             <figure className="sidebar__social-icons my-2">
                 <a href="!#"><img src={facebook} alt="facebook" className="sidebar__icon mr-3" /></a>
-                <a href="!#"><img src={instagram} alt="instagram" className="sidebar__icon" /></a>
+                <a href="https://www.linkedin.com/in/saurabh-rai-8385161a0/" target="_blank"><img src={linkedin} alt="instagram" className="sidebar__icon" /></a>
             </figure>
             <div className="sidebar__contact">
                 <div className="sidebar__item sidebar__github">
